@@ -15,9 +15,10 @@ export default new Router({
       component: Index
     },
     {
-      path: '/ChercherCentre',
+      path: '/ChercherCentre/:numDep',
       name: 'ChercherCentre',
-      component: ChercherCentre
+      component: ChercherCentre,
+      props: true
     },
     {
       path: '/Informations',
